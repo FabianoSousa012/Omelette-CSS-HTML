@@ -1,0 +1,224 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Young Serif', serif;
+}
+
+body {
+    background-color: hsl(30, 54%, 90%);
+    min-height: 100vh;
+    
+    
+}
+
+.counteiner {
+    
+    background-color: #FFF;
+    width: 1100px;
+    margin: 130px auto;
+    border-radius: 20px;
+    
+    }
+
+
+    .omelette-img {
+        width: 100%;
+        padding: 100px;
+    }    
+
+    .omelette-img img {
+    width: 100%; 
+    border-radius: 20px;
+}
+
+    .tittle {
+        width: 100%;
+        padding: 10px 100px;
+    }
+
+    .tittle h1 {
+        font-size: 60px;
+        font-weight: 500;
+        }
+    .tittle p {
+        font-family: 'Young Serif', serif;
+        color: hsl(30, 10%, 34%);
+        font-weight: 400;
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    .preparation-time {
+        width: 910px;
+        padding: 100px;
+        background-color: hsl(332, 51%, 32%, .10);
+        margin: 30px auto;  
+        border-radius: 20px;
+        position: relative;
+    
+    }
+    .preparation-time h4 {
+        color: hsl(333, 48%, 34%);
+        font-size: 28px;
+        font-family: 'Outfit', sans-serif;
+        position: absolute;
+        top: 50px;
+        left: 50px;
+        }
+    .preparation-time li {
+        font-family: 'Young Serif', serif;
+        font-weight: 400;
+        font-size: 25px;
+        margin-top: 20px;
+        color: hsl(30, 10%, 34%);
+    }
+    .ingredients {
+        width: 910px;
+        padding: 100px;
+        margin: auto;
+        position: relative;
+        height: 500px;
+    }
+    .ingredients h3 {
+        color: hsl(14, 45%, 36%);
+        font-weight: 400;
+        font-size: 50px;
+        position: absolute;
+        top: 30px;
+        left: 0;
+    }
+    .ingredients li {
+        color: hsl(30, 10%, 34%);
+        font-weight: 400;
+        font-size: 25px;
+        margin-top: 30px;
+        left: 0;
+    }
+
+    .ingredients-li {
+        position: absolute;
+        left: 30px;
+    }
+    .linha-horizontal {
+        border-top: 1px solid hsl(30, 18%, 87%);
+        padding: 100px;
+        width: 910px;
+        margin: auto;
+        margin-top: 50px;
+    }
+    .instructions{
+        width: 910px;
+        padding: 100px;
+        margin: auto;
+        position: relative;
+        height: 900px;
+        }
+    .instructions h3 {
+        color: hsl(14, 45%, 36%);
+        font-weight: 400;
+        font-size: 50px;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .instructions ol {
+        list-style-type: none;
+        padding: 20px;
+        counter-reset: item;
+    }
+    .instructions li {
+        color: hsl(30, 10%, 34%);
+        font-weight: 400;
+        font-size: 25px;
+        margin-top: 30px;
+        left: 0;
+        width: 910px;
+        position: relative;
+        counter-increment: item;
+        margin-bottom: 8px;
+        font-family: 'Young Serif', serif;
+    }
+    .instructions-li {
+        position: absolute;
+        left: 0;
+    }
+
+    .instructions-li li::before {
+        content: counter(item);
+        display: inline-block;
+        width: 30px;
+        font-weight: bold;
+        color: hsl(14, 45%, 36%);
+      }
+
+    .linha-horizontal-instructions {
+        border-top: 1px solid hsl(30, 18%, 87%);
+        padding: 100px;
+        width: 910px;
+        margin: auto;
+        margin-top: 50px;
+    }
+    .nutrition {
+        width: 910px;
+        padding: 100px;
+        margin: auto;
+        position: relative;
+        height: 600px;
+        }
+    .nutrition h3 {
+        color: hsl(14, 45%, 36%);
+        font-weight: 400;
+        font-size: 50px;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .nutrition p {
+        font-family: 'Young Serif', serif;
+        color: hsl(30, 10%, 34%);
+        font-weight: 400;
+        font-size: 25px;
+
+    }
+    .nutrition-text {
+        position: absolute;
+        left: 0px;
+        top: 100px;
+    }
+    .nutrition-span {
+        color: hsl(14, 45%, 36%);
+        
+        font-weight: bold;
+        font-family: 'Outfit', sans-serif;
+        text-align: end;
+    
+    }
+    .linha-horizontal-nutrition {
+        border-top: 1px solid hsl(30, 18%, 87%);
+        padding: 100px;
+        width: 910px;
+        margin: auto;
+        margin-top: 25px;
+        position: absolute;
+    }
+    .nutrition-table {
+        margin-top: 40px;
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+        }
+
+
+    
+
+
+   
+
+
+
+    
+
+    
+
+
